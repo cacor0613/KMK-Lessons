@@ -239,9 +239,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Next Question">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="C1Y-GS-pNs" kind="unwind" unwindAction="unwindToFirstWithSegue:" id="ahU-Zd-dRC"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKv-ZR-D2W">
                                 <rect key="frame" x="154" y="655" width="131" height="29"/>
@@ -260,7 +257,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ycx-0O-4L5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="C1Y-GS-pNs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2558.0152671755723" y="18.30985915492958"/>
         </scene>
